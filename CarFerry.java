@@ -1,7 +1,5 @@
 package salomia.Simulation;
 
-import org.postgresql.jdbc2.ArrayAssistant;
-
 import java.util.ArrayList;
 
 public class CarFerry extends Vehicule{
@@ -71,5 +69,9 @@ public class CarFerry extends Vehicule{
             System.out.println("wasn't there");
         }
     }
-
+        public String chercherVoyageur(Personne p){
+        if(personnes.contains(p)){
+            return "hell yeah, he's here";
+        }else return "not there";
+        }
 }

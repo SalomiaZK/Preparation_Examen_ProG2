@@ -12,7 +12,7 @@ public class Vehicule {
     private int poidAVide;
     private int longueur;
     private int reserveDeCarburant;
-    private Conducteur conducteur; // tokony ho majeur
+    private Conducteur conducteur = null; // tokony ho majeur
 
     public void ChangerdeConducteur(Conducteur conducteur) {
         this.conducteur = conducteur;
