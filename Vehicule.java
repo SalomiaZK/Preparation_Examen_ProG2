@@ -12,7 +12,6 @@ public class Vehicule {
     private int poidAVide;
     private int longueur;
     private int reserveDeCarburant;
-    private int poidsTotal;
     private Conducteur conducteur; // tokony ho majeur
 
     public void ChangerdeConducteur(Conducteur conducteur) {
@@ -67,7 +66,6 @@ public class Vehicule {
         this.poidAVide = poidAVide;
         this.longueur = longueur;
         this.reserveDeCarburant = reserveDeCarburant;
-        this.poidsTotal = poidsTotal;
         this.conducteur = conducteur;
     }
 
