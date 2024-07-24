@@ -18,6 +18,9 @@ public class Vehicule {
     public void ChangerdeConducteur(Conducteur conducteur) {
         this.conducteur = conducteur;
     }
+    public void rouler(int kilometrage){
+        this.kilometrage += kilometrage;
+    }
 
     public  int getPoids(int charge){
         return this.poidAVide + this.reserveDeCarburant + charge;
